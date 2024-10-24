@@ -1,0 +1,231 @@
+body {
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #00325b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: purple;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.head1 {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: rgb(9, 38, 61);
+  padding-bottom: 2px;
+  padding-top: 1px;
+  padding-right: 25px;
+  font-weight: bold;
+  font-size: smaller;
+  text-align: right;
+}
+
+.head1 p{ 
+  color: white;
+  text-decoration: none;
+}
+
+.head1 p:active {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.header {
+  margin: 0;
+  background-color: rgba(0, 50, 91, 255);
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.img.logo {
+  padding-left: 18px;
+  height: 63px;
+  width: 160;
+}
+
+.login:hover {
+  cursor: pointer;
+}
+
+
+
+.topnav {
+  overflow: hidden;
+}
+
+
+
+
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:800px) {
+    .column {
+      width: 100%;
+    }
+  }
+  
+  
+button {
+	background-color: #00325b;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 0px;
+	width: 80px;
+}
+
+button:hover {
+	background-color: #343434;
+}
+
+
+.costumes { 
+  margin-top: 100px;
+}
+
+.section{
+margin: 40px;
+}
+
+.column img {
+  margin-left: 100px;
+  margin-top: 15px;
+  float: left;
+}
+
+footer {
+  background-color: #00325b;
+  color: white;
+  padding: 10px;
+  margin : 0px;
+  display:flex ;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+
+
+footer[class="payment"] {
+  background-color: rgba(0, 50, 91, 255) ;
+  padding: 10px 20px;
+  font-family: Helvetica Neue, Helvetica, Arial;
+  padding-top: 10px;
+  }
+  
+  footer[class="submit"] {
+  background-color: rgba(0, 50, 91, 255);
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+  }
+  
+  footer [class="payment"] div[class="address"] {
+  text-align: right;
+  font-weight: light;
+  }
+  
+  footer[class="payment"] div[class="address"] div {
+  padding-bottom: 5px;
+  font-size: small;
+  color: #ffffff; 
+  }
+  
+  
+  
+
